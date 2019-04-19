@@ -1,0 +1,24 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("i" variable nil nil [61 67])
+            ("bookmark" function (:arguments 
+              ( ("this_doc" variable nil (reparse-symbol FormalParameterList) [415 423]))              ) nil [397 839])
+            ("openPage" function (:arguments 
+              ( ("pageName" variable nil (reparse-symbol FormalParameterList) [861 869])
+                ("elmnt" variable nil (reparse-symbol FormalParameterList) [870 875])
+                ("color" variable nil (reparse-symbol FormalParameterList) [876 881])
+                ("q_id" variable nil (reparse-symbol FormalParameterList) [883 887]))              ) nil [843 1634]))          
+      :file "app.js"
+      :pointmax 1936
+      :fsize 1934
+      :lastmodtime '(23726 1434)
+      :unmatched-syntax nil))
+  :file "!scp:root@159.89.168.171:!home!abhay!salesforce-interview-questions!Django!mysite!salesforce!static!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

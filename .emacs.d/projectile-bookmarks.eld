@@ -1,0 +1,1 @@
+("~/GitHub/Work/" "~/.emacs.d/" "~/Dropbox/Work/" "~/Downloads/wget-1.20.2/" "~/Dropbox/Work/C++/")

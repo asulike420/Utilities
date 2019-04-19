@@ -1,0 +1,267 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("django.shortcuts" include nil nil [1 36])
+            ("salesforce.models" include nil nil [37 83])
+            ("salesforce.models" include nil nil [84 128])
+            ("salesforce.models" include nil nil [129 182])
+            ("salesforce.models" include nil nil [183 225])
+            ("salesforce.models" include nil nil [226 276])
+            ("salesforce.models" include nil nil [277 320])
+            ("salesforce.models" include nil nil [321 356])
+            ("salesforce.models" include nil nil [357 400])
+            ("salesforce.models" include nil nil [401 459])
+            ("salesforce.models" include nil nil [460 495])
+            ("salesforce.models" include nil nil [496 534])
+            ("CommentForm" include nil nil [547 565])
+            ("NoteForm" include nil nil [578 593])
+            ("django.http" include nil nil [595 631])
+            ("django.http" include nil nil [659 695])
+            ("topics" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [708 715]))              ) nil [697 907])
+            ("apex" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [917 924]))              ) nil [908 1114])
+            ("configuration" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [1133 1140]))              ) nil [1115 1339])
+            ("vf" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [1347 1354]))              ) nil [1340 1542])
+            ("webservice" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [1558 1565]))              ) nil [1543 1761])
+            ("pd1" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [1770 1777]))              ) nil [1762 1966])
+            ("user_topics_page" function
+               (:documentation "View User Home Page."
+                :arguments 
+                  ( ("request" variable nil (reparse-symbol function_parameters) [1988 1995])
+                    ("user_name" variable nil (reparse-symbol function_parameters) [1997 2006])
+                    ("section" variable nil (reparse-symbol function_parameters) [2008 2015]))                  )
+                nil [1967 2621])
+            ("user_question_page" function
+               (:documentation "View User Question Page."
+                :arguments 
+                  ( ("request" variable nil (reparse-symbol function_parameters) [2646 2653])
+                    ("user_name" variable nil (reparse-symbol function_parameters) [2655 2664])
+                    ("section" variable nil (reparse-symbol function_parameters) [2666 2673])
+                    ("topic" variable nil (reparse-symbol function_parameters) [2675 2680]))                  )
+                nil [2623 2954])
+            ("user_question_bookmark" function
+               (:documentation "View User Question Page."
+                :arguments 
+                  ( ("request" variable nil (reparse-symbol function_parameters) [2983 2990])
+                    ("user_name" variable nil (reparse-symbol function_parameters) [2992 3001])
+                    ("section" variable nil (reparse-symbol function_parameters) [3003 3010])
+                    ("topic" variable nil (reparse-symbol function_parameters) [3012 3017])
+                    ("q_id" variable nil (reparse-symbol function_parameters) [3019 3023]))                  )
+                nil [2955 3513])
+            ("user_question_remove_bookmark" function
+               (:documentation "View User Question Page."
+                :arguments 
+                  ( ("request" variable nil (reparse-symbol function_parameters) [3550 3557])
+                    ("user_name" variable nil (reparse-symbol function_parameters) [3559 3568])
+                    ("section" variable nil (reparse-symbol function_parameters) [3570 3577])
+                    ("topic" variable nil (reparse-symbol function_parameters) [3579 3584])
+                    ("q_id" variable nil (reparse-symbol function_parameters) [3586 3590]))                  )
+                nil [3515 4119])
+            ("render_question_page" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [4147 4154])
+                ("user_name" variable nil (reparse-symbol function_parameters) [4156 4165])
+                ("section" variable nil (reparse-symbol function_parameters) [4167 4174])
+                ("topic" variable nil (reparse-symbol function_parameters) [4176 4181]))              ) nil [4122 6205])
+            ("check_if_user_exists" function (:arguments 
+              ( ("user_name" variable nil (reparse-symbol function_parameters) [6231 6240]))              ) nil [6206 6351])
+            ("process_form" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [6370 6377]))              ) nil [6353 7598]))          
+      :file "views.py"
+      :pointmax 7598
+      :fsize 7597
+      :lastmodtime '(23729 63952)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("django.urls" include nil nil [1 29])
+            ("views" include nil nil [38 50]))          
+      :file "urls.py"
+      :pointmax 907
+      :fsize 902
+      :lastmodtime '(23725 51723)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("django.db" include nil nil [1 29])
+            ("SalesforceTopics" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("Topic_name" variable nil (reparse-symbol indented_block_body) [104 152])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [169 173]))                          )
+                        (reparse-symbol indented_block_body) [157 207]))                  
+                :type "class")
+                nil [62 207])
+            ("SalesforceApex" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("Question" variable nil (reparse-symbol indented_block_body) [248 292])
+                    ("Answer" variable nil (reparse-symbol indented_block_body) [297 340])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [357 361]))                          )
+                        (reparse-symbol indented_block_body) [345 393]))                  
+                :type "class")
+                nil [208 393])
+            ("SalesforceConfiguration" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("Question" variable nil (reparse-symbol indented_block_body) [443 487])
+                    ("Answer" variable nil (reparse-symbol indented_block_body) [492 535])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [552 556]))                          )
+                        (reparse-symbol indented_block_body) [540 588]))                  
+                :type "class")
+                nil [394 588])
+            ("SalesforceVf" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("Question" variable nil (reparse-symbol indented_block_body) [627 671])
+                    ("Answer" variable nil (reparse-symbol indented_block_body) [676 719])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [736 740]))                          )
+                        (reparse-symbol indented_block_body) [724 772]))                  
+                :type "class")
+                nil [589 772])
+            ("SalesforceWebservice" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("Question" variable nil (reparse-symbol indented_block_body) [819 863])
+                    ("Answer" variable nil (reparse-symbol indented_block_body) [868 911])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [928 932]))                          )
+                        (reparse-symbol indented_block_body) [916 964]))                  
+                :type "class")
+                nil [773 964])
+            ("SalesforcePD1" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("Question" variable nil (reparse-symbol indented_block_body) [1004 1048])
+                    ("Answer" variable nil (reparse-symbol indented_block_body) [1053 1096])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1113 1117]))                          )
+                        (reparse-symbol indented_block_body) [1101 1149]))                  
+                :type "class")
+                nil [965 1149])
+            ("Users" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("UserName" variable nil (reparse-symbol indented_block_body) [1187 1231])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1248 1252]))                          )
+                        (reparse-symbol indented_block_body) [1236 1284]))                  
+                :type "class")
+                nil [1156 1284])
+            ("UsersBookmark" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("Bookmark" variable nil (reparse-symbol indented_block_body) [1324 1438])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1455 1459]))                          )
+                        (reparse-symbol indented_block_body) [1443 1520]))                  
+                :type "class")
+                nil [1285 1520])
+            ("SalesforceInterviewQuestions" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("Question" variable nil (reparse-symbol indented_block_body) [1581 1625])
+                    ("Answer" variable nil (reparse-symbol indented_block_body) [1630 1673])
+                    ("Topic" variable nil (reparse-symbol indented_block_body) [1678 1720])
+                    ("Bookmark" variable nil (reparse-symbol indented_block_body) [1725 1773])
+                    ("Owner" variable nil (reparse-symbol indented_block_body) [1778 1836])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1901 1905]))                          )
+                        (reparse-symbol indented_block_body) [1889 1937]))                  
+                :type "class")
+                nil [1527 1937])
+            ("Notes" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("Note" variable nil (reparse-symbol indented_block_body) [1970 2009])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2176 2180]))                          )
+                        (reparse-symbol indented_block_body) [2164 2208]))                  
+                :type "class")
+                nil [1939 2208])
+            ("Comments" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("Comment" variable nil (reparse-symbol indented_block_body) [2243 2285])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2486 2490]))                          )
+                        (reparse-symbol indented_block_body) [2474 2521]))                  
+                :type "class")
+                nil [2209 2521]))          
+      :file "models.py"
+      :pointmax 2522
+      :fsize 2521
+      :lastmodtime '(23726 52926)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("django.test" include nil nil [1 33]))          
+      :file "tests.py"
+      :pointmax 61
+      :fsize 60
+      :lastmodtime '(23720 16044)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("django" include nil nil [1 25])
+            ("CommentForm" type
+               (:superclasses ("forms.Form")
+                :members 
+                  ( ("comment" variable nil (reparse-symbol indented_block_body) [62 144])
+                    ("q_id" variable nil (reparse-symbol indented_block_body) [149 210]))                  
+                :type "class")
+                nil [27 211])
+            ("NoteForm" type
+               (:superclasses ("forms.Form")
+                :members 
+                  ( ("note" variable nil (reparse-symbol indented_block_body) [245 321])
+                    ("q_id" variable nil (reparse-symbol indented_block_body) [326 387]))                  
+                :type "class")
+                nil [213 388]))          
+      :file "forms.py"
+      :pointmax 388
+      :fsize 387
+      :lastmodtime '(23729 55926)
+      :unmatched-syntax '(($EOI 388 . 388) ($EOI 365 . 365) ($EOI 363 . 363) ($EOI 462 . 462) (INDENT_BLOCK 122 . 248) (NEWLINE 121 . 122))))
+  :file "!scp:root@159.89.168.171:!home!abhay!salesforce-interview-questions!Django!mysite!salesforce!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

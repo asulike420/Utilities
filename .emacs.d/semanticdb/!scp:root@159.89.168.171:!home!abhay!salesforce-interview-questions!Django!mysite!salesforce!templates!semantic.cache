@@ -1,0 +1,55 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("Salesforce Interview Questions" section nil nil [64 643])
+            ("Saleseforce Interview Questions" section nil nil [643 702])
+            ("Saleseforce Interview Questions" section (:members 
+              ( ("Saleseforce Interview Questions" section (:members 
+                  ( ("Salesforce Interview Questions" anchor nil nil [952 955])
+                    ("Bookmarks" anchor nil nil [1012 1015])
+                    ("My Questions" anchor nil nil [1051 1054])
+                    ("Help and Tips" anchor nil nil [1093 1096]))                  ) nil [749 1271]))              ) nil [702 1271]))          
+      :file "user.html"
+      :pointmax 1271
+      :fsize 1270
+      :lastmodtime '(23722 56942)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("{{section}}: Topics" section (:members 
+              ( ("{{item.Topic_name}}" anchor nil nil [124 127]))              ) nil [48 321]))          
+      :file "user_topics.html"
+      :pointmax 321
+      :fsize 320
+      :lastmodtime '(23722 34679)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("{{section}}: Questions: {{topic}}" section nil nil [47 108])
+            ("{% for item, comment, note_form, comment_form in question_list %}
+  <li>
+    <div class=\"card\">
+      <div class=\"container\">
+	    <button class=\"collapsible\">
+          {{item.Question}}
+          <div align=\"right\">
+            <i class=\"material-icons\">bookmark" section (:members 
+              ( ("Comments" section nil nil [2199 3097])
+                ("Add Comment" section nil nil [3097 3468])
+                ("Note" section nil nil [3468 3850]))              ) nil [108 3850])
+            ("" section nil nil [3850 3972]))          
+      :file "user_question.html"
+      :pointmax 3972
+      :fsize 3971
+      :lastmodtime '(23729 64854)
+      :unmatched-syntax nil))
+  :file "!scp:root@159.89.168.171:!home!abhay!salesforce-interview-questions!Django!mysite!salesforce!templates!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
